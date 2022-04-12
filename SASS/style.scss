@@ -1,2 +1,10 @@
-@import url(./_home.scss);
-@import url(./_home.scss);
+@import "_variables.scss";
+@import "_home.scss";
+@import "_about.scss";
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

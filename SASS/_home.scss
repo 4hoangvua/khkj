@@ -1,0 +1,65 @@
+.header {
+  height: 90px;
+  box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+  .container {
+    .logo {
+      color: $color-primary;
+      font-size: $text-2xxl;
+      font-weight: $font-bold;
+      letter-spacing: -1px;
+      text-decoration: none;
+    }
+    .menu {
+      ul {
+        list-style-type: none;
+        width: 648px;
+        li {
+          display: flex;
+          align-items: center;
+          position: relative;
+          &:hover {
+            a {
+              color: $color-primary;
+            }
+            span {
+              width: 20px;
+              transition: all 0.5s;
+            }
+          }
+          a {
+            text-decoration: none;
+            font-size: $text-base;
+            color: $color-text;
+          }
+          span {
+            width: 0px;
+            background-color: $color-primary;
+            position: absolute;
+
+            height: 2px;
+            bottom: 14px;
+          }
+
+          .btn-schedual {
+            border-color: $color-primary;
+            font-size: $text-sm;
+            font-weight: $font-bold;
+            color: $color-primary;
+            width: 196px;
+            height: 54px;
+            &:hover {
+              color: $color-white;
+              background-color: $color-primary;
+              transition: all 0.3s;
+            }
+          }
+        }
+        .active {
+          a {
+            color: $color-primary;
+          }
+        }
+      }
+    }
+  }
+}

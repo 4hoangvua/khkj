@@ -1,5 +1,23 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+$color-primary: #dc4f72;
+$color-secondary: #0d5fa8;
+$color-title: #2c3038;
+$color-text: #5a5a5a;
+$color-bg-light: #f7f9fc;
+$color-white: #fff;
+
+$font-light: 300;
+$font-normal: 400;
+$font-semibold: 500;
+$font-bold: 700;
+
+$text-xs: 0.75rem; /* 12px */
+$text-sm: 0.875rem; /* 14px */
+$text-base: 1rem; /* 16px */
+$text-lg: 1.125rem; /* 18px */
+$text-xl: 1.25rem; /* 20px */
+$text-2xl: 1.5rem; /* 24px */
+$text-2xxl: 1.625rem; /* 26px */
+$text-3xl: 1.875rem; /* 30px */
+$text-4xl: 2.25rem; /* 36px */
+$text-5xl: 3rem; /* 48px */
+$text-6xl: 3.75rem; /* 60px */
